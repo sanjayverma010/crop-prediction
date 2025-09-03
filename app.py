@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 # ==============================
 # Load Model from URL (instead of local system)
 # ==============================
-MODEL_URL = "https://huggingface.co/your-username/your-model-repo/resolve/main/model.pkl"
+MODEL_URL = "https://raw.githubusercontent.com/sanjayverma010/crop-prediction/main/model.pkl"
 
 def load_model_from_url(url):
     try:
